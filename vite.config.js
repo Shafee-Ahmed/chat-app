@@ -6,4 +6,11 @@ export default defineConfig({
   plugins: [react(),
      tailwindcss()
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        // nothing needed here, just for clarity
+      }
+    }
+  }
 })
