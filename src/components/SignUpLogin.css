@@ -1,0 +1,136 @@
+
+html,
+body {
+    margin: var(--SignUpLogin-html-body-margin);
+    padding: var(--SignUpLogin-html-body-padding);
+    height: var(--SignUpLogin-html-body-height);
+    font-family: var(--SignUpLogin-html-body-font-family);
+    background: var(--SignUpLogin-html-body-background);
+    overflow: var(--SignUpLogin-html-body-overflow);
+    font-size: var(--SignUpLogin-html-body-font-size);
+}
+
+.container {
+    display: var(--SignUpLogin-container-display);
+    flex-direction: var(--SignUpLogin-container-flex-direction);
+    margin-right: var(--SignUpLogin-container-margin-right);
+    margin-left: var(--SignUpLogin-container-margin-left);
+    justify-content: var(--SignUpLogin-container-justify-content);
+    align-items: var(--SignUpLogin-container-align-items);
+    margin-top: var(--SignUpLogin-container-margin-top);
+    margin-bottom: var(--SignUpLogin-container-margin-bottom);
+    width: var(--SignUpLogin-container-width);
+    height: var(--SignUpLogin-container-height);
+    background: var(--SignUpLogin-container-background);
+    border-radius: var(--SignUpLogin-container-border-radius);
+    box-shadow: var(--SignUpLogin-container-box-shadow);
+    box-sizing: var(--SignUpLogin-container-box-sizing);
+    overflow: var(--SignUpLogin-container-overflow);
+}
+
+.header {
+    display: var(--SignUpLogin-header-display);
+    flex-direction: var(--SignUpLogin-header-flex-direction);
+    align-items: var(--SignUpLogin-header-align-items);
+    gap: var(--SignUpLogin-header-gap);
+    width: var(--SignUpLogin-header-width);
+}
+
+.text {
+    color: var(--SignUpLogin-text-color);
+    font-size: var(--SignUpLogin-text-font-size);
+    font-weight: var(--SignUpLogin-text-font-weight);
+}
+
+.underline {
+    width: var(--SignUpLogin-underline-width);
+    height: var(--SignUpLogin-underline-height);
+    background: var(--SignUpLogin-underline-background);
+    border-radius: var(--SignUpLogin-underline-border-radius);
+}
+
+.inputs {
+    margin-top: var(--SignUpLogin-inputs-margin-top);
+    display: var(--SignUpLogin-inputs-display);
+    flex-direction: var(--SignUpLogin-inputs-flex-direction);
+    gap: var(--SignUpLogin-inputs-gap);
+}
+
+.input {
+    display: var(--SignUpLogin-input-display);
+    align-items: var(--SignUpLogin-input-align-items);
+    margin: var(--SignUpLogin-input-margin);
+    width: var(--SignUpLogin-input-width);
+    height: var(--SignUpLogin-input-height);
+    background: var(--SignUpLogin-input-background);
+    border-radius: var(--SignUpLogin-input-border-radius);
+    margin-left: var(--SignUpLogin-input-margin-left);
+    margin-right: var(--SignUpLogin-input-margin-left);
+}
+
+.input img {
+    margin: var(--SignUpLogin-input-img-margin);
+}
+
+.input input {
+    height: var(--SignUpLogin-input-input-height);
+     width: var(--SignUpLogin-input-input-width); 
+    background: var(--SignUpLogin-input-input-background);
+    border: var(--SignUpLogin-input-input-border);
+    color: var(--SignUpLogin-input-input-color);
+    font-size: var(--SignUpLogin-input-input-font-size);
+}
+
+.forgot-password {
+    margin-top: var(--SignUpLogin-forgot-password-margin-top);
+    color: var(--SignUpLogin-forgot-password-color);
+    font-size: var(--SignUpLogin-forgot-password-font-size);
+    display: var(--SignUpLogin-forgot-password-display);
+    justify-content: var(--SignUpLogin-forgot-password-justify-content);
+    font-weight: var(--SignUpLogin-forgot-password-font-weight);
+    align-items: var(--SignUpLogin-forgot-password-align-items);
+}
+
+.forgot-password span,
+a {
+    color: var(--SignUpLogin-forgot-password-span-a-color);
+    cursor: var(--SignUpLogin-forgot-password-span-a-cursor);
+    text-decoration: var(--SignUpLogin-forgot-password-span-a-text-decoration);
+    font-weight: var(--SignUpLogin-forgot-password-span-a-font-weight);
+    padding: var(--SignUpLogin-forgot-password-span-a-padding);
+}
+
+.submit-container {
+    display: var(--SignUpLogin-submit-container-display);
+    margin: var(--SignUpLogin-submit-container-margin);
+}
+
+.submit {
+    display: var(--SignUpLogin-submit-display);
+    justify-content: var(--SignUpLogin-submit-justify-content);
+    align-items: var(--SignUpLogin-submit-align-items);
+    width: var(--SignUpLogin-submit-width);
+    height: var(--SignUpLogin-submit-height);
+    color: var(--SignUpLogin-submit-color);
+    background: var(--SignUpLogin-submit-background);
+    border-radius: var(--SignUpLogin-submit-border-radius);
+    font-size: var(--SignUpLogin-submit-font-size);
+    font-weight: var(--SignUpLogin-submit-font-weight);
+    cursor: var(--SignUpLogin-submit-cursor);
+}
+
+.submit:hover {
+    background: var(--SignUpLogin-submit-hover-background);
+    transition: 500ms;
+}
+
+.input input:focus {
+    outline: var(--SignUpLogin-input-input-focus-outline);
+    box-shadow: var(--SignUpLogin-input-input-focus-box-shadow);
+    border: var(--SignUpLogin-input-input-focus-border);
+}
+
+.gray {
+    background: var(--SignUpLogin-gray-background);
+    color: var(--SignUpLogin-gray-color);
+}
