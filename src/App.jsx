@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter basename="/chat-app">
+    <BrowserRouter basename="/">
       <div>
         <section>
           <Routes>
